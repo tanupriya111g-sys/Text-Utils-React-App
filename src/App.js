@@ -55,7 +55,7 @@ function App() {
     
     <>
        {/*<Navbar title="reactapp" aboutText="About"/>*/}
-       <Router>
+       <Router basename='/Text-Utils-React-App'>
        <Navbar title="reactapp" aboutText="About" mode={mode} toggleMode={toggleMode}/>
        <Alert alert={alert}/>
        <div className="container my-3">
